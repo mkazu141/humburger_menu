@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* 共通部分
+--------------------------------*/
+html{
+    font-size: 100%;
+}
+body{
+        font-family:"Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+        line-height: 1.7;
+        font-family: serif;
+        font-size: 2vw;
+}
+
+/* ハンバーガーメニュー
+--------------------------------*/
+.content_body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.content_body header {
+	position: relative;
+	z-index: 1;
+}
+.header_container {
+	position: relative;
+}
+.menu_container {
+	position: absolute;
+	cursor: pointer;
+}
+.menu_container img {
+    width: 9.8vw;
+    margin-left: 86vw;
+    margin-top: 4.9vw;
+	position: fixed;
+}
+.menu_open {
+	opacity: 1;
+}
+.menu_open.active {
+    opacity: 0;
+}
+.menu_close {
+	opacity: 0;
+}
+.menu_close.active {
+    opacity: 1;
+}
+.sp_menu {
+	background-color: rgba(11, 155, 138, .95);
+	position: fixed;
+	right: -100vw;
+	width: 100%;
+	height: 100%;
+	/* justify-content: center; */
+	/* align-content: center; */
+	color: white;
+	text-align: center;
+}
+.sp_menu.active {
+    transition: .5s;
+    right: 0;
+}
+.sp_menu ul {
+	padding-inline: 0;
+}
+.sp_menu li {
+    width: 60vw;
+	list-style: none;
+    font-size: 5vw;
+	margin-top: 8vw;
+    margin-left: 20vw;
+    border-bottom: 1px solid #fff;
+}
+.sp_menu ul{
+    position: fixed;
+    padding-top: 35vh;
+}
