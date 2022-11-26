@@ -1,4 +1,4 @@
-# humburger_menu!
+# humburger_menu
 そのまま使えるハンバーガーメニュー
 index.html内のsectionに要素を配置して使用する
 ```
